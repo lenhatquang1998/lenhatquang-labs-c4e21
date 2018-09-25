@@ -1,0 +1,87 @@
+h4 {
+    color: red;
+}
+h5 {
+    color: blue;
+}
+#last_title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.bg-blue{
+    background-color: brown;
+}
+.text-decor{
+    text-decoration: aqua;
+}
+#image {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+#container {
+    background-image: url(https://genknews.genkcdn.vn/k:thumb_w/660/2016/joker-1-970x545-1464602661087/10-dieu-hay-nhat-ve-the-oker-co-the-ban-chua-biet-phan-1.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-gren {
+    background-color: green;
+}
+.text-white {
+    color: rgb(156, 187, 148);
+}
+.h-20p {
+    height: 200px;
+}
+
+.w-40p {
+    width: 200px;
+}
+.h-10 {
+    height: 20%;
+}
+.w-50 {
+    width: 50%;
+}
+.mb-10p {
+    margin-bottom: 10px;
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.mb-20p {
+    margin: 20px;
+}
+
+.m-c {
+    margin: 300px 200px 250px 400px;
+}
+
+.pt-16 {
+    padding-top: 16px;
+}
+
+.pt-8 {
+    padding-left: 8px;
+}
+
+.b-c {
+    border: 2px black dashed;
+    /* border-color: black;
+    border-width: 2px;
+    border-style: dashed; */
+    border-radius: 100%;
+}

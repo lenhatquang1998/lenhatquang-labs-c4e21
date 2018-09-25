@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.title {
+    font-size: 1.9rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.author {
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace
+}
+.new_post {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+#backgroud {
+    background-image: url(http://lienminh360.vn/wp-content/uploads/2017/06/riven_splash_6.jpg);
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text-red {
+    color: rgba(236, 20, 20, 0.678);
+}
+.m-c {
+    margin: 30px 35px 5px 550px;
+}
+.pt-35 {
+    padding-top: 35px;
+}
+.pt-600 {
+    padding-left: 600px;
+}
+.font-size {
+    font-size: 1.6rem;
+}
+.font-size4 {
+    font-size: 1.4rem;
+}
+.font-size3 {
+    font-size: 1.3rem;
+}
+.font-size2 {
+    font-size: 1.25rem;
+}
+.m-c1 {
+    margin: 30px 35px 5px 35px
+}

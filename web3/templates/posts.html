@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="backgroud">
+        <a class="new_post text-red pt-600" href="{{ url_for('new_post') }}">add new post</a>
+    </div>
+    
+    <div>
+        {% for post in posts %}
+        <div class="m-c">
+            <a href="/post/{{ post.id }}">
+            <span class="title">{{post.title}}</span>
+            </a>
+            <span class="author">by {{ post.author }}</span>
+          
+        </div>
+        
+        
+        {% endfor %}
+    </div>
+    
+</body>
+</html>
